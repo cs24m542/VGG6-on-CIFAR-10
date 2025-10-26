@@ -137,7 +137,7 @@ The GELU + NADAM configuration provided the best Results.
 ---
 
 ## 🔗 GitHub Repository
-**Repository Link:** [PLACEHOLDER – Add your GitHub link here]
+**Repository Link:** [https://github.com/cs24m542/VGG6-on-CIFAR-10/tree/main]
 
 ---
 

@@ -50,7 +50,7 @@ pip install torch torchvision torchaudio matplotlib numpy tqdm pyyaml wandb
 
 ## 🚀 Running the Code
 
-### **Option 1: Run Locally (Without W&B)**
+### **Option 1.1: Train model Locally (Without W&B) **
 You can train and evaluate the VGG6 model directly without using W&B:
 ```bash
 python VGG6_main.py --activation=GELU --batch_size=256 --epochs=100 --learning_rate=0.01 --optimizer=Nadam --mode=train --weight_file_path=WEIGHT_FILE_PATH
@@ -66,7 +66,7 @@ This will:
 
 ## 🚀 Running the Code
 
-### **Option 1: Run Locally (Without W&B)**
+### **Option 1.2: Validate with Pretrained Weight Locally (Without W&B)**
 You can only evaluate the VGG6 model directly with already trained weight file
 ```bash
 python VGG6_main.py --activation=GELU --batch_size=256 --epochs=100 --learning_rate=0.01 --optimizer=Nadam --mode=val --weight_file_path=WEIGHT_FILE_PATH

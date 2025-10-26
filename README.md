@@ -115,7 +115,7 @@ This performs multiple training runs with varying configurations (e.g., optimize
 
 | Configuration | Activation | Optimizer | LR | Batch Size | epochs|Best Val Accuracy | Test Accuracy |
 |----------------|-------------|------------|----|-------------|-------------------|----------------|
-| Best Model | GELU | Nadam | 0.01 | 256 |100| **88.4%** | **90.4%** |
+| Best Model | GELU | Nadam | 0.01 | 256 |100| **88.4%** | **90.95%** |
 
 The GELU + NADAM configuration provided the best Results.
 

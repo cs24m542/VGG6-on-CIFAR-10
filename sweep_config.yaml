@@ -1,0 +1,21 @@
+program: VGG6_main.py
+project: CIFAR10-VGG6-Hyperparameter-Sweep-5
+method: bayes   # can also be 'random' or 'bayes'
+metric:
+  name: val_accuracy  # metric to optimize
+  goal: maximize
+parameters:
+  activation:
+    values: ["GELU", "ReLU","Sigmoid","Tanh","SiLU"]
+  optimizer:
+    values: ["Nesterov", "SGD","Adam","Adagrad","RMSprop","Nadam"]
+  batch_size:
+    values: [64,128,256,512]
+  learning_rate:
+    values: [0.001,0.01]
+  epochs:
+    values: [20,40,60,80,100]
+  wandb_mode:
+    values: ["wandb_sweep"]
+  mode:
+    value: "train"
